@@ -6,7 +6,7 @@ var app = express();//Respond with "hello world" for requests that hit our root 
 
 app.get('/', function (req, res) {
 
- res.send('Welcome to My Node-app');
+ res.send('Welcome to My Node-app Deploing using jenkins pipeline...');
 
 });//listen to port 3000 by default
 
